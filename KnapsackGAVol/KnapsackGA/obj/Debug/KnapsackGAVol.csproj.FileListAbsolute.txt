@@ -1,0 +1,9 @@
+C:\Users\jezdebon\Documents\Visual Studio 2013\Projects\KnapsackGAVol\KnapsackGA\obj\Debug\KnapsackGAVol.csprojResolveAssemblyReference.cache
+C:\Users\jezdebon\Documents\Visual Studio 2013\Projects\KnapsackGAVol\KnapsackGA\obj\Debug\KnapsackGA.Form1.resources
+C:\Users\jezdebon\Documents\Visual Studio 2013\Projects\KnapsackGAVol\KnapsackGA\obj\Debug\KnapsackGA.Properties.Resources.resources
+C:\Users\jezdebon\Documents\Visual Studio 2013\Projects\KnapsackGAVol\KnapsackGA\obj\Debug\KnapsackGAVol.csproj.GenerateResource.Cache
+C:\Users\jezdebon\Documents\Visual Studio 2013\Projects\KnapsackGAVol\KnapsackGA\obj\Debug\KnapsackGA.exe
+C:\Users\jezdebon\Documents\Visual Studio 2013\Projects\KnapsackGAVol\KnapsackGA\obj\Debug\KnapsackGA.pdb
+C:\Users\jezdebon\Documents\Visual Studio 2013\Projects\KnapsackGAVol\KnapsackGA\bin\Debug\KnapsackGA.exe.config
+C:\Users\jezdebon\Documents\Visual Studio 2013\Projects\KnapsackGAVol\KnapsackGA\bin\Debug\KnapsackGA.exe
+C:\Users\jezdebon\Documents\Visual Studio 2013\Projects\KnapsackGAVol\KnapsackGA\bin\Debug\KnapsackGA.pdb
