@@ -1,5 +1,6 @@
 ### KnapsackGA
-Este programa resolve com a técnica de algoritmos genéticos o problema da mochila (knapsack) masi especificamente o problema da mochila 0-1. Onde se deve escolher de uma lista de itens com pesos e valores diferentes quais os itens que vão ser colocados na mochila de modo a maximizar o valor, mas sem ultrapassar um peso máximo final.Existem várias alternativas e variações. Neste caso o problema é chamado de 0-1 Knapsack porque ou o produto está na mochila ou não.
+Este programa resolve com a técnica de algoritmos genéticos o problema da mochila (knapsack), mais especificamente o problema da mochila 0-1. Onde se deve escolher de uma lista de itens com pesos e valores diferentes quais os itens que vão ser colocados na mochila de modo a maximizar o valor, mas sem ultrapassar um peso máximo final. 
+Neste exemplo o volume dos itens também devem ser limitados a um volume máximo. 
 
 O problema do Knapsack (mochila) é um problema de otimização combinatória, e é um dos 21 problemas NP-Complexos de [Richard Karp](https://en.wikipedia.org/wiki/Karp%27s_21_NP-complete_problems).
 
@@ -9,18 +10,15 @@ Este programa foi escrito no MS-Visual Studio na linguagem c#. Permite a leitura
 - KnapsackGA - considera o peso e o valor dos itens na sacola
 - KnapsackGAVol - considera o peso, o valor e o volume da sacola.
 
-- Project status badge
-[![Build status](https://ci.appveyor.com/api/projects/status/eanb0rmid5tbgoio?svg=true)](https://ci.appveyor.com/project/jedeboni/knapsackga)
-
 ### Componentes principais do programa fonte (versão KnapsackGA)
-   - [Form1.Designer](KnapsackGA/KnapsackGA/Form1.Designer.cs) - componentes da interface gráfica (GUI) do programa. 
-   - [Form1](KnapsackGA/KnapsackGA/Form1.cs) - Código do programa principal, controla o algoritmo genético.
-   - [Individuo](KnapsackGA/KnapsackGA/Individuo.cs) - Descreve a sacola e as operações básicas de criação e avaliação.
-   - [Item](KnapsackGA/KnapsackGA/Item.cs) - Descreve um item da mochila.
-   - [DemoRoseta](KnapsackGA/dados/DemoRoseta.csv) - dados para testar o software, de uma demo no [rosettacode](http://rosettacode.org/wiki/Knapsack_problem/0-1)
+   - [Form1.Designer](https://github.com/jedeboni/KnapsackVolumeGA/blob/master/KnapsackGAVol/KnapsackGA/Form1.Designer.cs) - componentes da interface gráfica (GUI) do programa. 
+   - [Form1](https://github.com/jedeboni/KnapsackVolumeGA/blob/master/KnapsackGAVol/KnapsackGA/Form1.cs) - Código do programa principal, controla o algoritmo genético.
+   - [Individuo](https://github.com/jedeboni/KnapsackVolumeGA/blob/master/KnapsackGAVol/KnapsackGA/Individuo.cs) - Descreve a sacola e as operações básicas de criação e avaliação.
+   - [Item](https://github.com/jedeboni/KnapsackVolumeGA/blob/master/KnapsackGAVol/KnapsackGA/Item.cs) - Descreve um item da mochila.
+   - [DemoRoseta](https://github.com/jedeboni/KnapsackVolumeGA/blob/master/dados/DemoRosetaVolume.csv) - dados para testar o software, de uma demo no [rosettacode](http://rosettacode.org/wiki/Knapsack_problem/0-1) incluindo agora o volume dos itens.
    
 ### Exemplo da Interface
-   ![](KnapsackGA/imagem/knapsackGA.JPG)
+   ![](https://github.com/jedeboni/KnapsackVolumeGA/blob/master/image/Interface.JPG)
 
 ### Uso do Programa
 - File > Read List - Permite ler uma lista (CSV) dos itens disponíveis para compor a sacola
@@ -33,7 +31,8 @@ Este programa foi escrito no MS-Visual Studio na linguagem c#. Permite a leitura
 - Read..  - idem ao File > Read List
 - Lista de Itens - (saida) mostra o nome do arquivo dos os dados da sacola
 - N = (saida) número de itens da sacola
-- Peso Sacola (Entrada) define o peso inicial da sacola valr default 4.0 (real)
+- Peso Sacola (Entrada) define o peso máximo da sacola default 4.0 (Kg)
+- Volumne Sacola (Entrada) define o volume máximo da sacola default 5.0 (Litros)
 - Run - idem ao Run > Run
 - POPSIZE - (entrada) - tamanho da população gerada a cada geração (def. 1024)
 - ELITE - (entrada) - porcentagem da população que sobrevive e se reproduz a cada geração (def. 0.2)
