@@ -1,0 +1,6 @@
+configurarion: Release
+
+# BUILD THE Windows App
+build
+  verbosity: minimal
+  publish_wap: true
