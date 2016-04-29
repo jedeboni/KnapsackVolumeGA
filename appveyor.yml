@@ -1,6 +1,7 @@
-configurarion: Release
+version: 1.0.{build}
+os: Visual Studio 2013
+configuration: Debug
 
-# BUILD THE Windows App
-build
+build:
+  project: /KnapsackGAVol/KnapsackGA.sln
   verbosity: minimal
-  publish_wap: true
