@@ -6,9 +6,9 @@ O problema do Knapsack (mochila) é um problema de otimização combinatória, e
 
 Este programa foi escrito no MS-Visual Studio na linguagem c#. Permite a leitura da lista de um arquivo CSV e a variação dos parâmetros do algoritmo genético.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/pe5vopyl7q7t1nkw?svg=true)](https://ci.appveyor.com/project/jedeboni/knapsackvolumega)
+Windows Application Status: [![Build status](https://ci.appveyor.com/api/projects/status/pe5vopyl7q7t1nkw?svg=true)](https://ci.appveyor.com/project/jedeboni/knapsackvolumega)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/pe5vopyl7q7t1nkw/branch/master?svg=true)](https://ci.appveyor.com/project/jedeboni/knapsackvolumega/branch/master)
+Master branch Status: [![Build status](https://ci.appveyor.com/api/projects/status/pe5vopyl7q7t1nkw/branch/master?svg=true)](https://ci.appveyor.com/project/jedeboni/knapsackvolumega/branch/master)
 
 ### Versões
 - [KnapsackGA - considera o peso e o valor dos itens na sacola](https://github.com/jedeboni/Knapsack01GA)
